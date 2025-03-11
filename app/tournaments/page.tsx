@@ -66,12 +66,11 @@ export default function TournamentPage() {
       <Navbar /> {/* Use Navbar component */}
 
       {/* Tournament Banner Section */}
-      <div className="relative h-80 bg-cover bg-center"
-        style={{ backgroundImage: 'url(/scrims-tournament-banner.jpg)' }}>
-        <div className="absolute inset-0 bg-black opacity-50 flex items-center justify-center">
-          <h1 className="text-4xl font-bold text-red-500">Scrims Tournament 2025</h1>
-        </div>
-      </div>
+      <div className="relative h-80 bg-black">
+  <div className="absolute inset-0 bg-black opacity-50 flex items-center justify-center">
+    <h1 className="text-4xl font-bold text-red-500">Scrims Tournament 2025</h1>
+  </div>
+</div>
 
       {/* Tournament Description Section */}
       <div className="container mx-auto py-6 px-4 text-center">
