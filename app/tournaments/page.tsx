@@ -50,7 +50,7 @@ export default function TournamentPage() {
     {
       name: "Team Tharikida",
       members: [
-        "I need a gothmommy#241",
+        "I need a gothmommy#241", // Escape the apostrophe here
         "kunjapanQT#0007",
         "Odiyan#PRO",
         "June#Mallu",

@@ -1,5 +1,3 @@
-"use client";
-
 import { useState, useEffect } from "react";
 import { FaWhatsapp, FaFacebook, FaInstagram, FaDiscord } from "react-icons/fa";
 import Link from "next/link";
@@ -68,13 +66,13 @@ export default function IndexPage() {
                 className="bg-gray-800 text-white px-4 py-2 rounded-full opacity-75 hover:opacity-100"
                 onClick={() => changeSlide(-1)} // Previous slide
               >
-                &#8249;
+                &#8249; {/* Left arrow */}
               </button>
               <button
                 className="bg-gray-800 text-white px-4 py-2 rounded-full opacity-75 hover:opacity-100"
                 onClick={() => changeSlide(1)} // Next slide
               >
-                &#8250;
+                &#8250; {/* Right arrow */}
               </button>
             </div>
           </div>
@@ -89,32 +87,31 @@ export default function IndexPage() {
               className="rounded-lg"
             />
             <div className="mt-4 flex space-x-6 justify-center text-4xl">
-  {/* WhatsApp */}
-  <a href="https://wa.me/" target="_blank" rel="noopener noreferrer">
-    <FaWhatsapp className="text-green-400 cursor-pointer hover:text-green-500" size={30} />
-  </a>
-  
-  {/* Facebook */}
-  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-    <FaFacebook className="text-blue-500 cursor-pointer hover:text-blue-600" size={30} />
-  </a>
-  
-  {/* Instagram */}
-  <a href="https://www.instagram.com/j/AbYTZcf4gf3FVPV4/" target="_blank" rel="noopener noreferrer">
-    <FaInstagram className="text-pink-500 cursor-pointer hover:text-pink-600" size={30} />
-  </a>
-  
-  {/* Discord */}
-  <a href="https://discord.gg/vwswNrmJpb" target="_blank" rel="noopener noreferrer">
-    <FaDiscord className="text-purple-500 cursor-pointer hover:text-purple-600" size={30} />
-  </a>
+              {/* WhatsApp */}
+              <a href="https://wa.me/" target="_blank" rel="noopener noreferrer">
+                <FaWhatsapp className="text-green-400 cursor-pointer hover:text-green-500" size={30} />
+              </a>
+              
+              {/* Facebook */}
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <FaFacebook className="text-blue-500 cursor-pointer hover:text-blue-600" size={30} />
+              </a>
+              
+              {/* Instagram */}
+              <a href="https://www.instagram.com/j/AbYTZcf4gf3FVPV4/" target="_blank" rel="noopener noreferrer">
+                <FaInstagram className="text-pink-500 cursor-pointer hover:text-pink-600" size={30} />
+              </a>
+              
+              {/* Discord */}
+              <a href="https://discord.gg/vwswNrmJpb" target="_blank" rel="noopener noreferrer">
+                <FaDiscord className="text-purple-500 cursor-pointer hover:text-purple-600" size={30} />
+              </a>
 
-  {/* Linktree */}
-  <a href="https://linktr.ee/ken.gg" target="_blank" rel="noopener noreferrer">
-    <TbBrandLinktree className="text-green-500 cursor-pointer hover:text-gray-700" size={30} />
-  </a>
-</div>
-
+              {/* Linktree */}
+              <a href="https://linktr.ee/ken.gg" target="_blank" rel="noopener noreferrer">
+                <TbBrandLinktree className="text-green-500 cursor-pointer hover:text-gray-700" size={30} />
+              </a>
+            </div>
           </div>
         </div>
 
@@ -134,4 +131,3 @@ export default function IndexPage() {
     </div>
   );
 }
-

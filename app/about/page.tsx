@@ -16,7 +16,7 @@ export default function AboutPage() {
             Welcome to the North American Kerala Esports community! We are a passionate group of Kerala-based
             esports enthusiasts who have come together to celebrate and compete in the world of gaming. From friendly
             matches to large-scale tournaments, our mission is to provide a platform for gamers of all skill levels
-            to connect, compete, and grow together. Whether you're a casual gamer or a competitive player, this community
+            to connect, compete, and grow together. Whether you&apos;re a casual gamer or a competitive player, this community
             is the place for you to engage with like-minded individuals.
           </p>
           <p className="text-xl text-gray-300">
